@@ -14,7 +14,7 @@ pipeline{
         }
         stage('Deploy'){
             steps{
-                'publish docker image'
+                echo 'publish docker image'
             }
         }
     }
