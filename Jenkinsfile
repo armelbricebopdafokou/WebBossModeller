@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('Build'){
             steps{
-                bat ' docker build -t  WBMBackend .'
+                sh 'docker build -t  WBMBackend .'
             }
             
         }
