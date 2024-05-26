@@ -1,7 +1,7 @@
 name: CI
 on: [push]
 jobs:
-  jfr-static-image-action-pipeline:
+  pipeline:
     runs-on: [ubuntu-latest, windows-latest]
     steps:
       - uses: actions/checkout@v2
